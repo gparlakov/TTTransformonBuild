@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{70AC55C5-5133-40E1-82B0-E570B7E075A3}"
 	ProjectSection(SolutionItems) = preProject
-		DAIS.TextTemplatingOnBuild.targets = DAIS.TextTemplatingOnBuild.targets
+		TextTemplatingOnBuild.targets = TextTemplatingOnBuild.targets
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task", "Task\Task.csproj", "{B8619F3C-6AEA-4FC2-9D78-EDC3B277F16B}"
