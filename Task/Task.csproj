@@ -62,7 +62,7 @@
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
-  <Import Project="$(SolutionDir)DAIS.TextTemplatingOnBuild.targets" />
+  <Import Project="$(SolutionDir)TextTemplatingOnBuild.targets" />
   <ItemGroup>
     <DllsToInclude Include="$(ProjectDir)..\Nom1\bin\$(Configuration)\Nom1.dll">
       <InProject>False</InProject>

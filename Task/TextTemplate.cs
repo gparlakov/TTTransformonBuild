@@ -9,10 +9,11 @@ namespace DAIS.eBank.Trader.Services
  
        Mu1 = 1,
        Mu2 = 2,
+       Mu3 = 3,
 
  
-       te1 = 3,
-       te2 = 4,
+       te1 = 4,
+       te2 = 5,
 
     }
 }

@@ -9,6 +9,7 @@ namespace Nomenclature
     public enum EnumMu
     {
         Mu1 = 1,
-        Mu2 = 2
+        Mu2 = 2,
+        Mu3 = 3
     }
 }
