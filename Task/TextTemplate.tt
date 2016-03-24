@@ -1,0 +1,33 @@
+﻿<#@ template debug="true" hostspecific="true" language="C#" #>
+<#@ assembly name="System.Core" #>
+<#@ import namespace="System" #>
+<#@ import namespace="System.Linq" #>
+<#@ import namespace="System.Text" #>
+<#@ import namespace="System.Collections.Generic" #>
+<#@ output extension=".cs" #>
+using System;
+using System.Linq;
+using System.Collections.Generic;
+
+namespace DAIS.eBank.Trader.Services
+{    
+    public enum DAISComansNomenclature
+    {
+<#  
+    var enumTypeValues = typeof(Nomenclature.EnumMu).GetEnumValues();
+    var values = (Nomenclature.EnumMu[])enumTypeValues; 
+#> 
+<#  for (var i = 1; i <= values.Length; i++){#>
+       <#=(values)[i-1] #> = <#=i #>,
+<#  }#>
+
+<#  
+    var enumTypeValues1 = typeof(Nom1.EnumFu).GetEnumValues();
+    var values1 = (Nom1.EnumFu[])enumTypeValues; 
+#> 
+<#  for (var i = 1; i <= values.Length; i++){#>
+       <#=(values1)[i-1] #> = <#=i+2 #>,
+<#  }#>
+
+    }
+}
