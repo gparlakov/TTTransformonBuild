@@ -2,9 +2,9 @@
 using System.Linq;
 using System.Collections.Generic;
 
-namespace DAIS.eBank.Trader.Services
+namespace Task
 {    
-    public enum DAISComansNomenclature
+    public enum GeneratedNomenclature
     {
  
        Mu1 = 1,
